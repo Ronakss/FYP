@@ -29,7 +29,7 @@ def upload_file():
 
 if __name__ == "__main__":
     
-    filename = "/Users/ronakshakari/Desktop/project/model/hog_model.pickle"
+    filename = "/Users//Desktop/project/model/hog_model.pickle"
 
     # load model
     classifier = pickle.load(open(filename, "rb"))
