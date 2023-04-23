@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:background="#1482FF"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+    <TextView
+        android:layout_centerVertical="true"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginLeft="15dp"
+        android:text="Managers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+    <ImageView
+        android:id="@+id/img_add"
+        android:layout_marginRight="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_add"
+        android:layout_width="30dp"
+        android:layout_height="30dp">
+    </ImageView>
+
+</RelativeLayout>
+
+  <androidx.recyclerview.widget.RecyclerView
+      android:id="@+id/rec_managers"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+  </androidx.recyclerview.widget.RecyclerView>
+</LinearLayout>
